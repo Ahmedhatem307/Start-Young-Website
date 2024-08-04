@@ -1,0 +1,49 @@
+*{
+    background-color: #fff5e0;
+}
+
+#mainlogo{
+    width: 500px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: green;
+}
+.logo{
+    background-color: green;
+}
+.navbar{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.navbar li {
+    display: inline;
+    margin: 0 20px;
+}
+ul{
+    background-color: black;
+    overflow: hidden;
+}
+li{
+    float: left;
+    
+}
+li a {
+    display: block;
+    font-family: Helvetica;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: black;
+}
+nav {
+    background-color: black;
+    padding: 10px 0;
+}
+.navbar li a:hover {
+    text-decoration: underline;
+    background-color: green;
+}
